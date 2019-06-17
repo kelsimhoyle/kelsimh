@@ -1,0 +1,53 @@
+body {
+    color: whitesmoke;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.side-content {
+    width: 20%;
+    height: 100vh;
+    float: left;
+    background-color: #C38D9E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main-content {
+    width: 80%;
+    height: 100vh;
+    float: right;
+    background-color:#70d2cc;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.nav-div {
+    cursor: pointer;
+    width: 100%;
+    padding: 10%;
+    margin: auto;
+}
+
+.nav-div:hover {
+    background-color: #C38D9E;
+}
+
+#content-display {
+    height: 80%;
+    width: 80%; 
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+
+
