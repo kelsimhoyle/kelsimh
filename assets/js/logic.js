@@ -13,7 +13,7 @@ var projects = [
         deployed: "https://kelsimhoyle.github.io/unit-4-game/",
         githhub: "https://github.com/kelsimhoyle/unit-4-game",
         image: "assets/images/portfolio-images/crystalCollector.png",
-        description: "Trivia game based on Parks and Recreation. Each question and answer is timed"
+        description: "Game where the user must figure out a crystal's value and add up to the targeted value."
     },
     project3 = {
         name: "Gif Generator",

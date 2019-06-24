@@ -124,7 +124,7 @@ li.info {
     text-align: center;}
 
 li.info:hover {
-    background-color: #C38D9E;
+    background-color: rgba(255, 141, 135, .5);
 }
 
 #content-display {
