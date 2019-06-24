@@ -120,7 +120,7 @@ generatePortfolio();
 
 $(".info").on("click", function(){
     $("#content-display").empty();
-    var infoType = $(this).attr("id");
+    var infoType = $(this).attr("data-type");
     if (infoType === "portfolio") {
         $('html, body').animate({
             scrollTop: $("#portfolio-display").offset().top - 50
